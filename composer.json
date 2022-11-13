@@ -1,0 +1,16 @@
+{
+    "name": "pingachguk/my-first-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pingachguk\\MyFirstPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pingachguk",
+            "email": "imayakimov@gmail.com"
+        }
+    ],
+    "require": {}
+}
