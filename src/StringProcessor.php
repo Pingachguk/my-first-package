@@ -13,4 +13,9 @@ class StringProcessor
     {
         return strlen($text);
     }
+
+    public static function toUpperCase(string $text): string
+    {
+        return strtoupper($text);
+    }
 }
